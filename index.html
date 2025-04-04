@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="shortcut icon" href="logo3.jpg" type="image/icon">
+
+    <!-- ======Style switcher ======= -->
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<style>
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    animation: shake 1.5s infinite, flash 1s infinite alternate;
+}
+
+/* Shake Animation */
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Flashing Effect */
+@keyframes flash {
+    0% { background-color: #25D366; }
+    100% { background-color: #1EBE5D; }
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+</style>
+
+<body>
+    <!-- ============ main container starts here =============== -->
+
+    <div class="main-container">
+        <!-- ====== Aside Start ====== -->
+        <div class="aside" id="sidebar">
+            <div class="logo">
+                <div class="propic" id="propic"></div>
+                <div class="propic2" id="propic2"></div>
+            </div>
+            <div class="close-btn" id="close-icon">
+                <i class="fa fa-window-close"></i>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contacts</a></li>
+            </ul>
+        </div>
+        <!-- ====== Aside Ends ====== -->
+
+        <!-- ====== main content start ====== -->
+        <div class="main-content">
+
+            <!-- ========== home section start ============= -->
+            <section class="home section" id="home">
+                <div class="nav-toggler" id="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="home-img padd-15">
+                            <img src="Snapchat-1113406965.jpg" alt="Ezenwa Destiny's picture " width="300px"
+                                height="200px">
+                        </div>
+
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Monwuba Benedict
+                                    .O.</span></h3>
+                            <h3 class="my-profession">I'm a<span class="typing">web developer</span></h3>
+                            <p>I'm a web developer with extensive experience
+                                for over years. My expertise are to
+                                Create Website Designs, Graphic Designs,
+                                Automated Telegram Bots, Software
+                                Development and many more..
+                            </p>
+                            <a href="#contact" class="btn hire-me">Hire
+                                me</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- ========== home section ends ============= -->
+
+            <!-- ========== about section start ============= -->
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Monwuba Benedict .O.
+                                        <span>website developer</span>
+                                    </h3>
+                                    <p>A tech enthusiast with a passion for
+                                        building innovative solutions.
+                                        With a strong foundation in
+                                        programming languages and web
+                                        development
+                                        frameworks,
+                                        I design and develop user-friendly
+                                        and efficient digital experiences.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>27 May
+                                                    2005</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>19</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance :
+                                                <span>Available</span>
+                                            </p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Deploma : <span>In
+                                                    View</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+234
+                                                    7039975646</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City :
+                                                <span>Anambra</span>
+                                            </p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email :
+                                                <span>zeeben59@gmail.com</span>
+                                            </p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Telegram :
+                                                <span>t.me/FLTechnologies</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <button id="DownloadCV" class="btn"> Download
+                                                CV</button>
+                                            <a href="#contact" class="btn hire-me">Hire
+                                                me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 45%;"></div>
+                                                <div class="skill-percent">45%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>UI/UX</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">89%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>PYTHON</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 40%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>PHP</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 60%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JAVA</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- ========== timeLine items ========== -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2009 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title"></h4>
+                                                    <p class="timeline-text">
+                                                        Community Nursary &
+                                                        Primary School
+                                                        Amawbia, Anambra
+                                                        providing a
+                                                        solid foundation for
+                                                        future success.
+                                                        Developed essential
+                                                        skills
+                                                        in Mathematics,
+                                                        English language,
+                                                        and Social Skills,
+                                                        while
+                                                        cultivating
+                                                        creativity and
+                                                        problem-solving
+                                                        abilities through
+                                                        various
+                                                        extracurricular
+                                                        activities and
+                                                        projects.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2015 - 2021
+                                                    </h3>
+                                                    <p class="timeline-text">
+                                                        Community Secondary
+                                                        School Anawnbia
+                                                        where i
+                                                        expanded my
+                                                        knowledge and skills
+                                                        in various subjects,
+                                                        honing my critical
+                                                        thinking,
+                                                        problem-solving, and
+                                                        collaboration
+                                                        abilities. This
+                                                        experience
+                                                        laid the groundwork
+                                                        for my future
+                                                        academic and
+                                                        professional
+                                                        success.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2022 - 2025
+                                                    </h3>
+                                                    <p class="timeline-text">
+                                                        John Bosco Institute
+                                                        Ibolo-Obosi,
+                                                        Onitsha, where i'm
+                                                        acquiring a
+                                                        solid foundation in
+                                                        Computer Science.
+                                                        Developing expertise
+                                                        in
+                                                        programming,
+                                                        algorithm design,
+                                                        and software
+                                                        development, with a
+                                                        focus on
+                                                        innovative
+                                                        problem-solving
+                                                        and cutting-edge
+                                                        technologies, to
+                                                        drive success in
+                                                        tech
+                                                        industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- ========== timeLine items ========== -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2021 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Hardware
+                                                        & Software
+                                                        Troubleshooting</h4>
+                                                    <p class="timeline-text">
+                                                        Collaborated with my
+                                                        supervisor,
+                                                        troubleshooting and
+                                                        resolving
+                                                        both hardware and
+                                                        software
+                                                        issues, developing
+                                                        strong analytical
+                                                        and problem-solving
+                                                        skills,
+                                                        and ensuring
+                                                        seamless
+                                                        system performance
+                                                        and efficiency
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2023 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Projects
+                                                    </h4>
+                                                    <p class="timeline-text">
+                                                        Developed a
+                                                        responsive website
+                                                        for a client using
+                                                        HTML, CSS, and
+                                                        JavaScript, React,
+                                                        and PHP. Created a
+                                                        custom design and
+                                                        implemented
+                                                        user-friendly
+                                                        interface.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2023 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Back-end
+                                                        Development</h4>
+                                                    <p class="timeline-text">
+                                                        Developed RESTful
+                                                        APIs using PHP,
+                                                        Node.js, Express and
+                                                        Ruby on Rails.
+                                                        Integrated detabase
+                                                        like MSQL, MongoDB,
+                                                        and PostgreSQL.
+                                                        Improved data
+                                                        management,
+                                                        scalabilty, and
+                                                        security.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>
+                                                        2023 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Automated
+                                                        Telegram-Bot
+                                                        Development</h4>
+                                                    <p class="timeline-text">
+                                                        Developed an
+                                                        Automated
+                                                        Telegram-Bot using
+                                                        python. Integrated
+                                                        detabase
+                                                        like MSQL, MongoDB,
+                                                        and PostgreSQL.
+                                                        Improved data
+                                                        management,
+                                                        scalabilty, and
+                                                        security.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== about section ends ============= -->
+
+            <!-- ========== Services section start ============= -->
+            <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- =========== services items starts here =========== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-mobile-alt"></div>
+                                </div>
+                                <h4>Website Design and Development</h4>
+                                <p>
+                                    Offer custom website design and
+                                    development services, including
+                                    responsive design,
+                                    UI/UX, and front-end development
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-laptop-code"></div>
+                                </div>
+                                <h4>Web Application Development</h4>
+                                <p>
+                                    Provide services for building custom web
+                                    applications, including back-end
+                                    development, API integration, and
+                                    database management
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa-solid fa-robot"></div>
+                                </div>
+                                <h4>Telegram Automated Bots</h4>
+                                <p>
+                                    Provide services for building custom
+                                    Automated Telegram Bots, API integration
+                                    and Payment management.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-palette"></div>
+                                </div>
+                                <h4>E-commerce Solution</h4>
+                                <p>
+                                    offers e-commerce website development
+                                    and maintenance services, such as online
+                                    store setup, payment gateway
+                                    integration, and shopping cart
+                                    development.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-code"></div>
+                                </div>
+                                <h4>Website Maintenace and Update</h4>
+                                <p>
+                                    Offers services for maintaining and
+                                    updating existing websites, including
+                                    bug fixing, security
+                                    updates, and content management
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-search"></div>
+                                </div>
+                                <h4>Responsive Design and Mobile
+                                    Optimization</h4>
+                                <p>
+                                    provide services for converting existing
+                                    website to responsive design, ensuring a
+                                    seamless
+                                    user experience across devices
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <div class="fa fa-bullhorn"></div>
+                                </div>
+                                <h4>SEO and Performance Optimization</h4>
+                                <p>
+                                    Offer services for improving website
+                                    performance, including search engine
+                                    optimization (SEO), page
+                                    speed optimization, and website
+                                    analytics setup
+                                </p>
+                            </div>
+                        </div>
+                        <!-- =========== services items ends here =========== -->
+                    </div>
+                </div>
+            </section>
+            <!-- ========== Services section Ends ============= -->
+
+            <!-- ========== Portfolio section Starts ============= -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My last projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ============ portfolio items start============== -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="dashboard.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Ecommerce Website.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="figma design.jpg" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Notion invest.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="portfolio.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="projecto.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project01.jpeg" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project4.jpeg" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project5.webp" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project7.jpg" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project8.jpg" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="project.png" alt>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============ portfolio items ends============== -->
+                    </div>
+                </div>
+            </section>
+            <!-- ========== Portfolio section Ends ============= -->
+
+            <!-- ========== contact section Starts ============= -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">Have You Any Question ?</h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR
+                        SERVICE</h4>
+                    <div class="row">
+                        <!-- ==========  Contact me starts here ============ -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+234 7039975646</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>John Bosco Institute</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>zeeben59@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>frontlinetechnologies.com</p>
+                        </div>
+                        <!-- ==========  Contact me ends here ============ -->
+                    </div>
+                    <h3 class="contact-title">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY
+                        RESPONSIVE TO MESSAGES</h4>
+                    <!-- =======  conatact form=========== -->
+                    <form class="conatact-form padd-15" id="my-form" action="https://formspree.io/f/xkgjqzwy"
+                        method="POST">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <textarea name="text" class="textarea form-control" id
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <button type="submit" id="my-form-button" class="btn" value="send">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- ========== contact section Ends ============= -->
+        </div>
+        <!-- ====== main content ends ====== -->
+
+    </div>
+    <!-- ============ main container ends here=============== -->
+
+    <!-- ============ Styles Switcher Starts here=============== -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggle s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- ============ Styles Switcher ends here=============== -->
+
+     
+   
+    
+    <a href="https://wa.me/2347039975646" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- =========== Js Files =========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.module.min.js"
+        integrity="sha512-1vVMsDl/LZNbNr33vzdgMXA4X0ZfBMKGt8hWxwBIHeicP7T185oo4/PRnIWyywTQaETrXxBlQpLwB3uoTSrQIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jsFile.js"></script>
+    <script src="style-switcher.js"></script>
+</body>
+
+</html>
